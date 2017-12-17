@@ -51,7 +51,7 @@ enum
     //SPELL_FIREBALL_LAND_H = 33793,
     SPELL_CONE_OF_FIRE      = 30926,
     SPELL_CONE_OF_FIRE_H    = 36921,
-
+	// rugiseement
     SPELL_BELLOW_ROAR_H     = 39427,
 
     // misc
