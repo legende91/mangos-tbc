@@ -931,8 +931,8 @@ namespace MaNGOS
             bool operator()(Unit* u)
             {
                 // Check contains checks for: live, non-selectable, non-attackable flags, flight check and GM check, ignore totems
-                if (!i_obj->CanAttackSpell(u))
-                    return false;
+				 // if (!i_obj->CanAttackSpell(u))
+                 //   return false;
 
                 // ignore totems as AoE targets
                 if (u->GetTypeId() == TYPEID_UNIT && ((Creature*)u)->IsTotem())
